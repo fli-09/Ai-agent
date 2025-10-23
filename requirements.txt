@@ -1,8 +1,20 @@
-langchain 
-wikipedia 
-langchain-community 
-langchain-openai
-langchain-anthropic
+# Core LangChain and Google Gemini
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-google-genai>=1.0.0
+
+# Community packages (for tools)
+langchain-community>=0.0.10
+
+# Agentic Graphs
+langgraph>=0.0.30
+
+# Specific tool dependencies
+wikipedia
+duckduckgo-search
+ddgs
+
+# Utilities
 python-dotenv
 pydantic
-duckduckgo-search
+
