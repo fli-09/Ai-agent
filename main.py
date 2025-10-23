@@ -112,6 +112,6 @@ if __name__ == "__main__":
         print("="*60)
         
     except Exception as e:
-        print(f"\n❌ Error running agent: {e}")
+        print(f"\n Error running agent: {e}")
         import traceback
         traceback.print_exc()
